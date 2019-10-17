@@ -1,0 +1,29 @@
+{
+  "name": "node-api-example",
+  "version": "1.0.0",
+  "description": "\"# node-api-example\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kledenai/node-api-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kledenai/node-api-example/issues"
+  },
+  "homepage": "https://github.com/Kledenai/node-api-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}

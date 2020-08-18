@@ -1,9 +1,8 @@
 const express = require('express');
+const ProjectController = require('./controllers/ProjectController');
 
 const routes = express.Router();
 
-routes.get('/', (req, res) => {
-    return res.json({ hello: 'world' });
-});
+routes.get('/projects', ProjectController.index);
 
 module.exports = routes;

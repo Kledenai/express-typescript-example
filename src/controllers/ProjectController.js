@@ -2,9 +2,15 @@ const { uuid } = require('uuidv4');
 
 module.exports = {
   async index (request, response) {
+    const { title } = request.query;
+
     const projects = request.app.get('projects');
 
-    return response.json(projects);
+    const result = title
+      ? projects.filter(project => project.title.includes(title))
+      : projects;
+
+    return response.json(result);
   },
 
   async store (request, response) {

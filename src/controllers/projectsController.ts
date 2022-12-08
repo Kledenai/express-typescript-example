@@ -4,7 +4,7 @@ import Project from '../interfaces/project'
 import ProjectNotFoundException from '../exceptions/projectNotFoundException'
 
 class ProjectsController {
-  public path = '/projects'
+  public path = '/project'
   public router = express.Router()
 
   constructor() {

@@ -1,24 +1,23 @@
 {
-  "name": "node-api-example",
+  "name": "express-typescript-example",
   "version": "1.0.0",
-  "description": "\"# node-api-example\"",
+  "description": "Express api example using typescript",
   "main": "src/index.js",
   "scripts": {
-    "prepare": "husky install",
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kledenai/node-api-example.git"
+    "url": "git+https://github.com/Kledenai/express-typescript-example.git"
   },
   "keywords": [],
   "author": "kledenai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kledenai/node-api-example/issues"
+    "url": "https://github.com/Kledenai/express-typescript-example/issues"
   },
-  "homepage": "https://github.com/Kledenai/node-api-example#readme",
+  "homepage": "https://github.com/Kledenai/express-typescript-example#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "envalid": "^7.3.1",

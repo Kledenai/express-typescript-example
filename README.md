@@ -25,3 +25,17 @@ And to finish the command so you can build the application and convert everythin
 ```bash
 yarn run build
 ```
+
+## Available Routes
+
+Routes
+
+| Routes       | Description              | Methods HTTP |
+| ------------ | ------------------------ | ------------ |
+| /project     | Obtain list of projects. | GET          |
+| /project     | Create a new project.    | POST         |
+| /project/:id | Show a unique project.   | GET          |
+| /project/:id | Update a unique project. | PATCH        |
+| /project/:id | Delete a unique project. | DELETE       |
+
+[to access the documentation of this api, enter this link](https://documenter.getpostman.com/view/9428727/2s9Y5YTNmA)

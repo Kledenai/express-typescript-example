@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "c32d7ad9-b1c3-41d9-8135-beea5c8dd168",
+		"_postman_id": "08a31ee0-49e7-4fea-ba90-4e6bf9fd0b3d",
 		"name": "Express TypeScript Example",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "7389593"
+		"_exporter_id": "9428727"
 	},
 	"item": [
 		{
@@ -159,7 +159,7 @@
 	"variable": [
 		{
 			"key": "base_url\n",
-			"value": "localhost:3333",
+			"value": "127.0.0.1:3333",
 			"type": "string"
 		}
 	]
